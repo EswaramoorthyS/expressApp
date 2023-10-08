@@ -9,7 +9,7 @@ app.use(express.json());
 const apiRoutes = require('./routes/api');
 
 // Use API routes
-app.use('/api', apiRoutes);
+app.use('/', apiRoutes);
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
