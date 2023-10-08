@@ -9,6 +9,7 @@ exports.getUsers = async (req, res) => {
     if (err) {
       console.error('Error executing MySQL query:', err);
       res.status(500).json({ error: 'Internal Server Error -----------------' });
+      res.json("Failed to connect db")
     } else {
         console.log("db sucess+++++++++")
         console.log(results,"db sucess+++++++++")
