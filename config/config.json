@@ -1,0 +1,14 @@
+{
+    "development": {
+      "username": "root",
+      "password": "",
+      "database": "seconddb",
+      "host": "localhost",
+      "dialect": "mysql"
+    },
+    "test": {
+    },
+    "production": {
+    }
+  }
+  
