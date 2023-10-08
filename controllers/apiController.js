@@ -2,6 +2,8 @@ const db = require('../models/db');
 
 exports.getUsers = async (req, res) => {
     console.log("api conteoller")
+    res.json("results");
+
   const query = 'SELECT * FROM user'; // Modify this SQL query as needed
 //   const query =await user.findAll(); // Modify this SQL query as needed
 
